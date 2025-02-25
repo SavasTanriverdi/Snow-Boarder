@@ -1,0 +1,49 @@
+# Unity Gereksiz Dosyalar
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio ve JetBrains Rider Dosyaları
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D tarafından oluşturulan meta dosyaları
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Çökme raporları ve derleme dosyaları
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics tarafından oluşturulan dosyalar
+crashlytics-build.properties
+
+# VS Code Dosyaları
+.vscode/
+
+# İşletim Sistemi Tarafından Oluşturulan Dosyalar
+.DS_Store
+Thumbs.db
