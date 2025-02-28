@@ -1,4 +1,6 @@
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishLine : MonoBehaviour
 {
@@ -6,7 +8,7 @@ public class FinishLine : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Debug.Log("Player has reached the finish line!");
+            SceneManager.LoadScene(0);
         }
     }
 }
