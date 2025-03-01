@@ -7,10 +7,13 @@ public class CrashDetector : MonoBehaviour
     [SerializeField] AudioClip crashSFX;
     [SerializeField] float loadDelay = .5f;
 
+    bool hasCrashed = false;
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Ground")
+        if(other.tag == "Ground" && !hasCrashed)
         {
+            hasCrashed = true;
             crashEffect.Play();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
             Invoke("ReloadScene", loadDelay);
