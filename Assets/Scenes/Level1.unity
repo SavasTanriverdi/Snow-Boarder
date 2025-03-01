@@ -1889,7 +1889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crashEffect: {fileID: 1502457877}
   crashSFX: {fileID: 8300000, guid: 902e957fe16f6394580e173dea6bfa1d, type: 3}
-  loadDelay: 0.5
+  loadDelay: 1
 --- !u!114 &1034313175
 MonoBehaviour:
   m_ObjectHideFlags: 0
